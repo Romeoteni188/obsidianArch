@@ -55,8 +55,13 @@ source  ~/.zshrc
 cuando la secion caduca volver a iniciar seccion.
 con el nombre del usuario
 
+password
+```
+Romeoteni188+
+```
+
 ```bash
-❯ aws sso login --profile romeo  
+ aws sso login --profile romeo  
 ```
 
 escojer el perfil

@@ -28,3 +28,8 @@ lazygit
 ```
 
 ![[Pasted image 20241111110225.png]]
+
+r es para sobre escribir el commit 
+c para un comit
+d para eliminar una rama local
+
