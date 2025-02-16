@@ -31,6 +31,8 @@ nvim
 
 buscarcar archivos  instalar grep preview
 - space + f+f 
+ grep
+- space +s+f 
 - file broser
 - space +s+f 
 - find files
@@ -110,9 +112,49 @@ en comand cmdline
 - space + c + shift +a  no estar parado en el error 
 
 
+otra confuguracion 
+
+```bash
+ sudo pacman -S ffmpeg
+```
+
+
+
+```bash
+sudo pacman -S lua-language-server
+```
+
+```bash
+sudo pacman -S stylua
+```
+
+comentar
+
+g+c 
+
+descomentar 
+
+
+selecionar 
+
+
+
+copiar
 
 
 
 
+space + c = home vim
 
+
+
+ space f g + file gre buscade string
+
+space + g +b = info de git 
+space g h = cambios den git 
+
+
+:!e esta actulizar el archivo 
+
+Sudo pacman -s tailwindcss-language-server
 

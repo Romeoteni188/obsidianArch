@@ -1,5 +1,9 @@
 ***
 
+es logear 
+
+aws sso login
+
 Descargar contenedor
 
 ```bash
