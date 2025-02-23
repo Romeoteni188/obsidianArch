@@ -158,3 +158,52 @@ space g h = cambios den git
 
 Sudo pacman -s tailwindcss-language-server
 
+## para archivos mjml 
+se necesit de dos terminales 
+
+con el comando 
+
+```bash
+mjml --watch index.mjml -o index.html
+```
+
+activar el servidor :
+```bash
+ LivePreview start  
+```
+
+
+colores 
+
+```bash
+set ft=blade 
+```
+
+
+para crear carpetas al final se pone diagonal
+
+```bash
+nombrecarpeta/
+```
+
+; con s para guardar un archivo para 
+
+para atajos  para regresar a un archivo  avierto 
+
+con ñ o con ; 
+
+g l es para ver la info de error 
+d l es para entrar y buscar el archivo
+
+se instalo para markdown 
+yay -S marksman
+
+y tambien se descargo los idiomas ut8
+
+```bash
+	mkdir -p ~/.local/share/nvim/site/spell
+curl -o ~/.local/share/nvim/site/spell/es.utf-8.spl https://ftp.nluug.nl/vim/runtime/spell/es.utf-8.spl
+curl -o ~/.local/share/nvim/site/spell/es.utf-8.sug https://ftp.nluug.nl/vim/runtime/spell/es.utf-8.sug
+
+```
+
