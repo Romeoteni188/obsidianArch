@@ -119,7 +119,11 @@ echo $GIT_TOKEN
  echo $GIT_TOKEN | gh auth login --with-token
 
 
+para la api de laravel ya no es pnpm es all
 
+```bash
+all-format
+```
 
 
 

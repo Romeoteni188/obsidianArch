@@ -192,8 +192,8 @@ para atajos  para regresar a un archivo  avierto
 
 con ñ o con ; 
 
-g l es para ver la info de error 
-d l es para entrar y buscar el archivo
+gl es para ver la info de error 
+gd  es para entrar y buscar el archivo
 
 se instalo para markdown 
 yay -S marksman
@@ -207,3 +207,4 @@ curl -o ~/.local/share/nvim/site/spell/es.utf-8.sug https://ftp.nluug.nl/vim/run
 
 ```
 
+g. para ver los archivos .env 
