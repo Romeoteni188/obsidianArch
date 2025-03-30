@@ -159,15 +159,15 @@ space g h = cambios den git
 Sudo pacman -s tailwindcss-language-server
 
 ## para archivos mjml 
-se necesit de dos terminales 
+se necesita de dos terminales 
 
-con el comando 
+con el comando  primera terminal
 
 ```bash
 mjml --watch index.mjml -o index.html
 ```
 
-activar el servidor :
+segundo terminal activar el servidor :
 ```bash
  LivePreview start  
 ```
