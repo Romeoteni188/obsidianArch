@@ -12,7 +12,7 @@ sudo pacman -S sway swaylock swayidle
 herramientas 
 
 ```bash
-sudo pacman -S sway swaylock swayidle foot thunar
+sudo pacman -S sway swaylock swayidle foot thunar swaybg
 ```
 
 waybar->barra de estados 
@@ -22,6 +22,7 @@ wl-clipboard -> para cortapapeles
 mako-> notiifcaioens de wayland
 foot -> para abri apliacaciones
 thunar-para buscar herramientas
+rofi es para abrir y buscar aplicaciones 
 ## **nota**
 antes de instalar crear estos directorios
 
@@ -154,7 +155,7 @@ exec waypaper --restore
 #para que incie waybar siempre al iniciar
 exec waybar
 #para ponder fonod
-exec swaybg -i /home/romeo188/Pictures/Fondo/arch.png
+exec swaybg -i /home/romeo188/Pictures/Fondo/arch.png -m fill
 include /etc/sway/config.d/*
 
 #para habilitar los minitores
@@ -164,3 +165,38 @@ output HDMI-A-1 pos 0 0
 # output eDP-1 pos 1920 0
 # workspace number 1 output HDMI-A-1
 ```
+
+## tema rofi
+
+clonar el repo 
+```bash
+https://github.com/newmanls/rofi-themes-collection.git
+```
+
+ingresar el directorio 
+
+```bash
+cd /rofi-themes-collection/themes
+```
+
+```bash
+ sudo cp * /usr/share/rofi/themes/
+```
+
+escojer un thema con
+
+```bash
+rofi-theme-selector
+```
+
+para agregar un tema con rofi se agrega esta linea 
+
+```bash
+-show-icons -b
+```
+
+```bash
+set $menu dmenu_path | rofi -show drun -show-icons -b | xargs swaymsg exec --
+
+```
+
