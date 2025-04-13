@@ -208,3 +208,6 @@ curl -o ~/.local/share/nvim/site/spell/es.utf-8.sug https://ftp.nluug.nl/vim/run
 ```
 
 g. para ver los archivos .env 
+
+para trabajar con  sveltekit 
+
