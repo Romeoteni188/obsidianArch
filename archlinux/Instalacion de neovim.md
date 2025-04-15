@@ -211,3 +211,32 @@ g. para ver los archivos .env
 
 para trabajar con  sveltekit 
 
+
+---
+## plugin  vim-matchup
+### 1. nos ayuda a resaltar 
+parentesis()
+llaves {}
+corchetes[]
+paralabras como if/endif, for, endfor, en algunos lenguajes
+
+### 2. navegar entre apertura y cierre
+
+presionar % se puede salar entre apertura y cierre. Con vim-matchup, % detecta etiquetas HTML, ya que vim normamente no lo hace bien.
+
+### 3. seleccionar el contenido entre los pares
+
+- ``v%`` -> modo visual para borrar/copiar
+-  `d%` -> borrar hasta el cierre de la etiqueta
+- `y%` -> copiar desde apertura hasta cierre
+
+### 4. papup contextual cuando el par esta fuera de la vista
+Si estás en una etiqueta y la de cierre está muy abajo (fuera del viewport), se puede mostrar un **popup flotante** con la línea correspondiente.
+
+
+
+
+
+
+
+
