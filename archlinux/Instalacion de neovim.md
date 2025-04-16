@@ -236,7 +236,38 @@ Si estás en una etiqueta y la de cierre está muy abajo (fuera del viewport), s
 
 
 
+### Lualine.lua 
+se instalo esta plugin para la barra de estado 
+
+```bash
+https://github.com/nvim-lualine/lualine.nvim
+```
 
 
+para las nofificaciones no se instalo 
 
+```bash
+https://github.com/folke/noice.nvim
+```
+
+forma de instarlo
+
+```bash
+-- lazy.nvim
+{
+  "folke/noice.nvim",
+  event = "VeryLazy",
+  opts = {
+    -- add any options here
+  },
+  dependencies = {
+    -- if you lazy-load any plugin below, make sure to add proper `module="..."` entries
+    "MunifTanjim/nui.nvim",
+    -- OPTIONAL:
+    --   `nvim-notify` is only needed, if you want to use the notification view.
+    --   If not available, we use `mini` as the fallback
+    "rcarriga/nvim-notify",
+    }
+}
+```
 
