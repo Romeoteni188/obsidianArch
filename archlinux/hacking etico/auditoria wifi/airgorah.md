@@ -14,3 +14,11 @@ comando para instalar
 sudo pacman -Syu && sudo pacman -U ./airgorah_`arch`.pkg.tar.zst
 ```
 
+
+
+para ejecutar airgorah con sway
+
+```bash
+sudo --preserve-env=WAYLAND_DISPLAY,XDG_RUNTIME_DIR /usr/bin/airgorah
+
+```
