@@ -81,6 +81,16 @@ para hacer un push a docker hub, lo primero es loquearte en dockehub se obtiene 
  helm push  plantilla-0.1.0.tgz oci://registry-1.docker.io/romeo188
 ```
 
+para actulizar hay que estar en el directorio donde estan los archivos
+
+```bash
+helm upgrade website-finanssoreal . -f values.yaml --debug --atomic
+```
+
+
+
+
+
 ----
 ## comandos a usar 
 helm list -A 
@@ -92,10 +102,6 @@ helm test nombre-realease
 
 ## Enumerar, agregar, eliminar y actualizar repositorios
 
-ljssskkkk
-
-
-
 
 kubectl get pods                    # Ver todos los pods
 kubectl get svc                     # Ver los servicios (services)
@@ -103,11 +109,50 @@ kubectl get deployments             # Ver los deployments
 kubectl get all                     # Todo: pods, services, deployments, etc.
 kubectl describe pod <nombre>      # Ver detalles completos de un pod
 kubectl logs <nombre>              # Ver logs de un pod
+kubectl get nodes -o wide # ver ip del nodo
+ kubectl delete pods nombre-pods #eliminar los pods
+
+
+**Ejecuta el comando `kubectl port-forward`** para redirigir el puerto del servicio hacia tu máquina local
+
+
+
+
+## comandos docker 
+- docker run -e=host -d -p 4173:4173 website/website
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+consultoria 200
+laravel = srcm privada,
+laravel = 
+
+en contenedor ver si esta instalodo 
+
+
+prettier busque en directorio .
+prettier --plugin-search-dir=. --check .
+
+para formatear 
+docker run --rm -v $(pwd):/app -w /app formateador/formateador --write "src/**/*.svelte"
+
+
+jjjjkkkkk
 
 
 
