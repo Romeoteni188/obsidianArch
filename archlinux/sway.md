@@ -760,3 +760,4 @@ label:focus {
 
 ```
 
+Tomar captrua con sway
