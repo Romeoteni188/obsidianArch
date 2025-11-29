@@ -761,3 +761,27 @@ label:focus {
 ```
 
 Tomar captrua con sway
+
+
+## apagar 
+
+solo para instalar 
+
+```bash
+yay -S wlogout
+```
+
+para ver comando
+```bash
+wlogout
+```
+
+para crar tema
+
+```bash
+"custom/power": {
+    "format": "⏻ ",
+    "on-click": "wlogout"
+}
+
+```
